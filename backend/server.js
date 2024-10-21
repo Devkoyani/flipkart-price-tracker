@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use('/api/products', productRoutes); // Place routes after initializing app
 
 // MongoDB connection URI
-const mongoURI = 'mongodb+srv://devkoyani:dev123@cluster0.akqvs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const mongoURI = 'mongodb+srv://devkoyani:@cluster0.akqvs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 
 // Connect to MongoDB Atlas
